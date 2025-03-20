@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We are here for you!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+       <a href="#" class="logo"><img src="image hub\Safe.png"></a>
+       <label id="menu-icon" class="icons"><i class="fa-solid fa-bars"onclick="show()"></i></label>
+       <nav class="navbar"id="navbar">
+        <a href="#"style="--i:0;">About</a>
+        <a href="#"style="--i:1;">Help</a>
+        <a href="#"style="--i:2;">Contact</a>
+       </nav>
+
+    </header>
+   <h1 id="headline">Your Safety,Our Priority</h1> 
+   
+   
+
+   <div class="login" id="login">
+    <form>
+        <div><h2>Login</h2></div> 
+        <div class="inputbox">
+            <input type="text"placeholder="Username"required><i class="fa-solid fa-user"></i>
+            
+        </div>
+        <div class="inputbox">
+            <input type="password"placeholder="Password"required><i class="fa-solid fa-lock"></i>
+            
+        </div>
+        <div class="forget-remember">
+            <label>
+                <input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            <button type="submit"class='btn'>Login</button>
+        </div>
+        <div class="register">
+            <p>Don't have an account?<a href="#">Register</a></p>
+        </div>
+
+        
+    </form>
+    
+   </div>
+   <div id="tagline"><p><i>Empowering women's safety with real-time<br> assistance and location tracking.</i></p></div>
+   <div class="start"><button id="strt-btn" onclick="start()"><a href="#" id="strt" >Get Started</a></button></div>
+   
+   <script src="work.js">
+
+   </script>
+
+</body>
+</html>
